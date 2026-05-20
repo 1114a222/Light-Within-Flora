@@ -41,19 +41,28 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: auto;
 }
 
+/* Logo 容器 */
 .logo {
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
 }
 
+/* Logo 圖片 */
+.logo-image {
+  height: 90px;
+  width: auto;
+  display: block;
+}
+
+/* 導覽連結 */
 .nav-links {
   display: flex;
   gap: 24px;
+  margin-top: 12px;
 }
 
 .nav-links a {
@@ -222,9 +231,14 @@ footer {
     gap: 16px;
   }
 
+  .logo-image {
+    height: 60px;
+  }
+
   .nav-links {
     flex-wrap: wrap;
     gap: 12px 16px;
+    margin-top: 0;
   }
 
   .hero {
@@ -235,12 +249,10 @@ footer {
     margin-top: 14vh;
   }
 
-  /* 手機版主標題 */
   h1 {
     font-size: clamp(56px, 16vw, 100px);
   }
 
-  /* 手機版英文標題 */
   .english-title {
     font-size: 18px;
     letter-spacing: 4px;
