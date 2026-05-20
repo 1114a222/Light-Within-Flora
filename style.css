@@ -84,13 +84,26 @@ nav {
   opacity: 0.9;
 }
 
+/* 主標題：奇花明草 */
 h1 {
-  font-size: clamp(48px, 9vw, 110px);
+  font-size: clamp(72px, 12vw, 180px);
   line-height: 1;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   font-weight: 700;
+  letter-spacing: 2px;
 }
 
+/* 英文標題：LIGHT WITHIN FLORA */
+.english-title {
+  font-size: 28px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+/* 中文副標 */
 .subtitle {
   font-size: 20px;
   max-width: 560px;
@@ -222,6 +235,18 @@ footer {
     margin-top: 14vh;
   }
 
+  /* 手機版主標題 */
+  h1 {
+    font-size: clamp(56px, 16vw, 100px);
+  }
+
+  /* 手機版英文標題 */
+  .english-title {
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin-bottom: 24px;
+  }
+
   .subtitle {
     font-size: 18px;
   }
@@ -237,12 +262,4 @@ footer {
   .section h2 {
     font-size: 30px;
   }
-   .english-title {
-  font-size: 28px;
-  letter-spacing: 8px;
-  text-transform: uppercase;
-  margin-bottom: 32px;
-  font-weight: 300;
-  opacity: 0.9;
-}
 }
