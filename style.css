@@ -53,7 +53,7 @@ nav {
 
 /* Logo 圖片 */
 .logo-image {
-  height: 48px;      /* Logo 高度 */
+  height: 45px;
   width: auto;
   display: block;
   object-fit: contain;
