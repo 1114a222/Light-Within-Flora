@@ -237,4 +237,12 @@ footer {
   .section h2 {
     font-size: 30px;
   }
+   .english-title {
+  font-size: 28px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  font-weight: 300;
+  opacity: 0.9;
+}
 }
