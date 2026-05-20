@@ -53,10 +53,11 @@ nav {
 
 /* Logo 圖片 */
 .logo-image {
-  height: 45px;
+  height: 95px;
   width: auto;
   display: block;
   object-fit: contain;
+  opacity: 0.95;
 }
 
 /* 導覽連結 */
